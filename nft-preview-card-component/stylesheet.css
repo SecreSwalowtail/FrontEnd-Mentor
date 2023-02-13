@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "Outfit";
+    src: url(images/Outfit.ttf) format('truetype')
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+.card {
+    padding: 1.6rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+    max-width: 400px;
+}
+
+.card__image {
+    border-radius: 0.5rem;
+}
+
+.card__content {
+    display: grid;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    font-family: "Outfit";
+    gap: 0.8rem;
+    max-height: 70%;
+}
+
+.price-date__grid {
+    display: grid;
+    gap: 0.9rem;
+    grid-template-columns: 1fr, 1fr;
+}
+
+.price-date__cl1-flex {
+    grid-column: 1 / 1;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.price-date__cl2-flex {
+    grid-column: 2 / 2;
+    display: flex;
+    gap: 0.5rem;
+    justify-content: flex-end;
+}
+
+.price {
+    color: hsl(178, 100%, 50%);
+    font-family: "Outfit";
+}
+
+.time {
+    color: hsl(215, 51%, 70%);
+    font-family: "Outfit";
+    font-weight: 300;
+}
+
+.eth__icon {
+    object-fit: contain;
+}
+
+.clock {
+    object-fit: contain;
+}
+
+.nft__title {
+    color: white;
+    font-weight: 500;
+    font-family: "Outfit";
+}
+
+.nft__description {
+    color: hsl(215, 51%, 70%);
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.card__divider {
+    display: block;
+    background-color: hsl(215, 32%, 27%);
+    color: hsl(215, 32%, 27%);
+    height: 1px;
+    border-style: none;
+}
+
+.card__footer-grid {
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    overflow: hidden;
+    align-items: center;
+    justify-content: start;
+    gap: 1rem;
+}
+
+.avatar {
+    grid-column: 1 / 1;
+    max-width: 35px;
+    max-height: 35px;
+    border: solid white 1px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.footer__text {
+    grid-column: 2 / 2;
+    font-family: "Outfit";
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.text__white {
+    color: white;
+    grid-column: 2 / 2;
+    font-family: "Outfit";
+    font-weight: 300;
+}
+
+.nft__title:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.text__white:hover {
+    color: hsl(178, 100%, 50%);
+}
