@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Frauncess";
+    src: url(images/Fraunces.ttf) format('truetype')
+}
+
+@font-face {
+    font-family: "Monstserrat";
+    src: url(images/Montserrat.ttf) format('truetype')
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    margin: 30px auto;
+    padding: 0 30px;
+}
+
+.product__flex {
+    max-width: 700px;
+    display: flex;
+    background-color: white;
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.desktop__img {
+    max-width: 100%;
+    display: inherit;
+}
+
+.mobile__img {
+    display: none;
+}
+
+.product__body {
+    padding: 2rem;
+    display: grid;
+    max-width: 50%;
+}
+
+.product__category__wrapper {
+    display: inline;
+    height: 1px;
+}
+
+.product__category {
+    font-family: "Monstserrat";
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 4px;
+    color: hsl(228, 12%, 48%);
+}
+
+.product__title {
+    font-family: "Frauncess";
+    font-weight: 700;
+    color: hsl(212, 21%, 14%);
+    line-height: 2.0rem;
+    max-width: 250px;
+}
+
+.product__description {
+    font-family: "Monstserrat";
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price__discounted {
+    font-family: "Frauncess";
+    font-weight: 700;
+    color: hsl(158, 36%, 37%);
+}
+
+.price__original {
+    font-family: "Monstserrat";
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price__flex {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.price__flex__wrapper {
+    display: inline;
+    height: 30px;
+}
+
+.button {
+    display: flex;
+    border: none;
+    border-radius: 0.5rem;
+    background-color:hsl(158, 36%, 37%);
+    font-family: "Monstserrat";
+    font-weight: 500;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .product__flex {
+        flex-direction: column;
+    }
+
+    .desktop__img {
+        display: none;
+    }
+
+    .mobile__img {
+        display: block;
+        object-fit: cover;
+    }
+    .product__body {
+        max-width: 100%;
+        gap: 1rem;
+    }
+
+    .button {
+        min-height: 50px;
+    }
+
+    .price__flex__wrapper {
+        height: 50px;
+    }
+
+    .product__category__wrapper {
+        height: 10px;
+    }
+
+    .product__title {
+        max-width: 100%;
+    }
+}
+
+.button:hover {
+    background-color: hsl(158, 36%, 22%);
+}
