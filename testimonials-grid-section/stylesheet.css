@@ -1,0 +1,330 @@
+@font-face {
+    font-family: "BarlowRegular";
+    src: url(images/BarlowRegular.ttf) format('truetype');
+}
+
+body {
+    background-color: #edf2f8;
+    font-size: 13px;
+    font-family: "BarlowRegular";
+    min-height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-family: "BarlowRegular";
+    font-weight: 500;
+}
+
+.container {
+    margin: 2rem 1.5rem 2rem 1.5rem;
+}
+
+/* Start container 1 styling */
+
+.container-1 {
+    background-color: hsl(263, 55%, 52%);
+    padding: 2rem 0 2rem 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    background-image: url(images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 24px top;
+    background-origin: padding-box;
+}
+
+.container-1-title {
+    padding-top: 0.5rem;
+    line-height: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.daniel {
+    border-radius: 50%;
+    max-height: 2.5em;
+    max-width: 2.5em;
+    display: inline-block;
+    border: 2px solid #ae86e2 ;
+}
+
+.daniel-name {
+    display: inline-block;
+    font-family: "BarlowRegular";
+    font-weight: 400;
+    line-height: 1rem;
+}
+
+.daniel-name :nth-child(2) {
+    color: rgba(207, 207, 207, 0.5);
+    font-size: 11px;
+}
+
+.daniel-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container-1-paragraph {
+    color: rgba(207, 207, 207, 0.7);
+    font-family: "BarlowRegular";
+    padding-top: 1rem;
+    padding-right: 3rem;
+}
+
+/* End container 1 styling */
+
+/* Start container 2 styling */
+
+.container-2 {
+    padding: 2rem 0 2rem 2rem;
+    background-color: #49556b;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.jon {
+    border-radius: 50%;
+    max-height: 2.5em;
+    max-width: 2.5em;
+    display: inline-block;
+}
+
+.jon-name {
+    line-height: 1rem;
+}
+
+.jon-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.container-2-title {
+    padding-top: 0.5rem;
+    line-height: 1.5rem;
+    padding-right: 3rem;
+    color: white;
+}
+
+.container-2-paragraph {
+    color: rgba(207, 207, 207, 0.7);
+    padding-top: 1rem;
+    padding-right: 2rem;
+}
+
+.jon-name :nth-child(1) {
+    color: white;
+    font-weight: 400;
+}
+
+.jon-name :nth-child(2) {
+    color: rgba(207, 207, 207, 0.5);
+    font-size: 12px;
+}
+
+/* End container 2 styling */
+
+/* Start container 3 styling */
+
+.container-3 {
+    padding: 2rem 0 2rem 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.jean {
+    border-radius: 50%;
+    max-height: 2.5em;
+    max-width: 2.5em;
+    display: inline-block;
+}
+
+.jean-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.jean-name {
+    line-height: 1.1rem;
+}
+
+.jean-name :nth-child(1) {
+    font-weight: 500;
+}
+
+.jean-name :nth-child(2) {
+    color: rgb(150, 150, 150);
+    font-size: 12px;
+}
+
+.container-3-title {
+    padding-top: 0.5rem;
+    line-height: 1.5rem;
+    padding-right: 4rem;
+    font-weight: 600;
+    color: #464d56;
+}
+
+.container-3-paragraph {
+    color: rgba(70, 77, 86, 0.7);
+    padding-top: 1rem;
+    padding-right: 2.1rem;
+}
+
+/* End container 3 Styling */
+
+/* Start container 4 Styling */
+
+.container-4 {
+    padding: 2rem 0 2rem 2rem;
+    background-color: #18202d;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+}
+
+.patrick-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.patrick {
+    border-radius: 50%;
+    max-height: 2.5em;
+    max-width: 2.5em;
+    display: inline-block;
+    border: 2px solid #5a4e8d ;
+}
+
+.patrick-name {
+    line-height: 1.1rem;
+}
+
+.patrick-name :nth-child(1) {
+    color: white;
+}
+
+.patrick-name :nth-child(2) {
+    color: rgba(207, 207, 207, 0.5);
+    font-size: 11px;
+}
+
+.container-4-title {
+    color: white;
+    padding-top: 0.5rem;
+    line-height: 1.5rem;
+    padding-right: 2.3rem;
+    font-weight: 500;
+}
+
+.container-4-paragraph {
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 1rem;
+    padding-right: 2.4rem;
+}
+
+/* End Container 4 Styling */
+
+/* Start Container 5 Styling */
+
+.container-5 {
+    padding: 2rem 0 2rem 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.kira-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.kira {
+    border-radius: 50%;
+    max-height: 2.5em;
+    max-width: 2.5em;
+    display: inline-block;
+}
+
+.kira-name :nth-child(2) {
+    color: rgba(114, 114, 114, 0.8);
+    font-size: 11px;
+}
+
+.container-5-title {
+    font-weight: 500;
+    color: #4c5259;
+    font-weight: 700;
+    padding-top: 0.4rem;
+}
+
+.container-5-paragraph {
+    color: rgba(70, 77, 86, 0.7);
+    padding-top: 1rem;
+    padding-right: 2.0rem;
+}
+
+/* Media 1150px */
+@media only screen and (min-width: 1150px) {
+    body {
+        justify-content: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "container-1 container-1 container-2 container-5"
+                            "container-3 container-4 container-4 container-5";
+        gap: 2rem;
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .container-1 {
+        grid-area: container-1;
+        margin: 0;
+        background-position: right 5.6rem top;
+    }
+
+    .container-2 {
+        grid-area: container-2;
+        margin: 0;
+    }
+
+    .container-3 {
+        grid-area: container-3;
+        margin: 0;
+    }
+
+    .container-3-paragraph {
+        padding-top: 1.8rem;
+    }
+
+    .container-4 {
+        grid-area: container-4;
+        margin: 0;
+    }
+
+    .container-4-paragraph {
+        padding-top: 2.4rem;
+    }
+
+    .container-5 {
+        grid-area: container-5;
+        margin: 0;
+    }
+}
