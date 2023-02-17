@@ -161,10 +161,6 @@ body {
         background-size: auto;
     }
 
-    main {
-        margin-top: 9rem;
-    }
-
     .popout-storage-right {
         position: absolute;
         display: flex;
