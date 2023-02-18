@@ -1,0 +1,425 @@
+@font-face {
+    font-family: "BaiJam";
+    src: url(images/BaiJam.ttf) format('truetype');
+}
+
+:root {
+    --cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+    --dark-blue: hsl(210, 10%, 33%);
+    --gray-blue: hsl(201, 11%, 66%);
+    --footer-color: #f5f6f8;
+}
+
+body {
+    background-image: url(images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    font-family: "BaiJam";
+}
+
+.options br {
+    display: none;
+}
+
+.clipboard {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 6rem;
+}
+
+.clipboard-logo {
+    max-width: 8rem;
+    max-height: 8rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+
+.clipboard-title {
+    text-align: center;
+    color: var(--dark-blue);
+    font-size: 1.9rem;
+}
+
+.clipboard-description {
+    color: var(--gray-blue);
+    text-align: center;
+    font-size: 17px;
+    padding-top: 1rem;
+    margin: 0 auto;
+}
+
+.button-container {
+    margin-top: 2.7rem;
+    margin-bottom: 1.3rem;
+}
+
+.clipboard-download-ios {
+    border-style: none;
+    background-color: var(--cyan);
+    border-radius: 2.5rem;
+    color: white;
+    font-size: 16px;
+    min-width: 100%;
+    min-height: 3.2rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #219e89;
+    margin-bottom: 1.5rem;
+}
+
+.clipboard-download-mac {
+    border-style: none;
+    background-color: var(--light-blue);
+    border-radius: 2.5rem;
+    color: white;
+    font-size: 16px;
+    min-width: 100%;
+    text-align: center;
+    min-height: 3.2rem;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-bottom: 3px solid #4f62d8;
+}
+
+.clipboard-middle-image {
+    padding-bottom: 3rem;
+}
+
+.clipboard-middle {
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.clipboard-middle-title {
+    color: var(--dark-blue);
+    padding-bottom: 1rem;
+}
+
+.clipboard-middle-description {
+    color: var(--gray-blue);
+    padding-bottom: 2rem;
+}
+
+.clipboard-options {
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.options-title-1, .options-title-2, .options-title-3 {
+    color: var(--dark-blue);
+    padding-bottom: 0.6rem;
+}
+
+.clipboard-features-list {
+    text-align: center;
+}
+
+.options-description-1, .options-description-2, .options-description-3 {
+    color: var(--gray-blue);
+    padding-bottom: 3rem;
+}
+
+.options-description-3 {
+    padding-bottom: 5rem;
+}
+
+.clipboard-features {
+    text-align: center;
+}
+
+.feature-icons {
+    margin: 3.5rem auto;
+}
+
+.feature-title-1, .feature-title-2, .feature-title-3, .feature-title-4, .feature-title-5 {
+    padding-bottom: 0.8rem;
+    color: var(--dark-blue)
+}
+
+.feature-description-1 {
+    padding-bottom: 4rem;
+}
+
+.feature-description-2 {
+    padding-bottom: 3rem;
+}
+
+.feature-title-2 {
+    padding-top: 5.5rem;
+}
+
+.feature-description-1, .feature-description-2, .feature-description-3, .feature-description-4, .feature-description-5 {
+    color: var(--gray-blue)
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+    gap: 5rem;
+}
+
+.clipboard-bottom {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.bottom-title {
+    padding-bottom: 1rem;
+    color: var(--dark-blue);
+}
+
+.bottom-description {
+    color: var(--gray-blue);
+}
+
+.footer-logo {
+    margin: 0 auto;
+    padding-top: 2.8rem;
+    max-width: 8rem;
+    max-height: 8rem;
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: var(--footer-color);
+    min-width: 100%;
+    text-align: center;
+}
+
+.menu a {
+    text-decoration-color: initial;
+    color: hsl(210, 10%, 33%);
+    text-decoration: none;
+    display: block;
+    padding-bottom: 2rem;
+    font-size: 14px;
+}
+
+li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+li:last-child {
+    padding-bottom: 3rem;
+}
+
+.footer-icons, .footer-icons-twitter {
+    display: inline;
+}
+
+.footer-icons-twitter {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.footer-social-logos {
+    padding-bottom: 3rem;
+    padding-top: 1.6rem;
+}
+
+.menu a:hover {
+    color: var(--cyan);
+}
+
+.clipboard-download-mac:hover {
+    background-color: #8896ff;
+    border-color: #8896ff;
+}
+
+.clipboard-download-ios:hover {
+    background-color: #5ecbbb;
+    border-color: #5ecbbb;
+}
+
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-image: url(images/bg-header-desktop.png);
+    }
+
+    .clipboard-title {
+        font-size: 2.35rem;
+    }
+
+    .clipboard-description {
+        max-width: 36rem;
+    }
+
+
+    .clipboard-download-ios, .clipboard-download-mac {
+        min-width: unset;
+        margin: unset;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .clipboard-middle-title br {
+        display: none;
+    }
+
+    .clipboard-middle-description {
+        max-width: 40rem;
+        margin: 0 auto;
+    }
+
+    .feature-image {
+        margin: 0 auto;
+    }
+
+    .clipboard-middle-image {
+        transform:translateX(-6rem);
+        max-width: 44rem;
+        max-height: 44rem;
+    }
+
+    .clipboard-options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .options {
+        text-align: start;
+        padding-top: 3.5rem;
+        padding-left: 1rem;
+        font-size: 16px;
+    }
+
+    .options p {
+        max-width: 30rem;
+    }
+
+    .options br {
+        display: block;
+    }
+
+    .feature-title-1 br {
+        display: none;
+    }
+
+    .feature-description-1 {
+        max-width: 37rem;
+        margin: 0 auto;
+    }
+
+    .feature-title-2 br {
+        display: none;
+    }
+
+    .feature-title-1 {
+        font-size: 2rem;
+    }
+
+    .feature-title-2 {
+        font-size: 2rem;
+    }
+
+    .clipboard-features-list {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        margin: 0 auto;
+    }
+
+    .feature-1-container, .feature-2-container, .feature-3-container {
+        text-align: center;
+    }
+
+    .feature-description-3, .feature-description-4, .feature-description-5 {
+        max-width: 22rem;
+    }
+
+    .feature-icons {
+        padding: unset;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+
+    .logos {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .bottom-title br, .bottom-description br {
+        display: none;
+    }
+
+    .bottom-title {
+        font-size: 32px;
+    }
+
+    .bottom-description {
+        max-width: 38rem;
+        margin: 0 auto;
+        padding-bottom: 1rem;
+    }
+
+    .clipboard {
+        display: flex;
+        flex-direction: column;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .feature-title-4, .feature-title-5 {
+        padding-top: 0.7rem;
+    }
+
+    footer {
+        text-align: start;
+        display: flex;
+        align-items: center;
+    }
+
+    .footer-menu {
+        display: flex;
+        flex-direction: row;
+        gap: 3.5rem;
+        flex-wrap: wrap;
+        margin-left: 10rem;
+        padding-top: 0.9rem;
+    }
+
+    .footer-logo {
+        margin: unset;
+        padding: unset;
+        display: inline;
+        max-width: 3rem;
+        max-height: 3rem;
+        margin-left: 16rem;
+        padding-top: 1rem;
+    }
+
+    .footer-social-logos {
+        padding: unset;
+        margin-left: 14.2rem;
+    }
+
+    .menu a {
+        padding-bottom: 1rem;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .clipboard-features-list {
+        max-width: unset;
+    }
+}
