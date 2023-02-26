@@ -1,0 +1,76 @@
+@font-face {
+  font-family: "Manrope";
+  src: url(./assets/Manrope.ttf) format("truetype");
+}
+
+
+body {
+  background-color: hsl(218, 23%, 16%);
+  font-family: "Manrope";
+  padding-left: 0.85rem;
+  padding-right: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pattern-divider-desktop {
+  display: none;
+}
+
+.advice-card {
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding-top: 2.4rem;
+  max-width: 40rem;
+}
+
+.slip-id {
+  color: hsl(150, 100%, 66%);
+  text-align: center;
+  font-size: 0.7rem;
+  letter-spacing: 0.25rem;
+  font-weight: 600;
+  padding-bottom: 1.25rem;
+}
+
+.slip-advice {
+  color: hsl(193, 38%, 86%);
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: 1.5rem;
+}
+
+.pattern-divider {
+  min-width: 100%;
+}
+
+.button {
+  background-color: hsl(150, 100%, 66%);
+  border-style: none;
+  border-radius: 50%;
+  padding: 1.25rem;
+  transform: translateY(50%);
+}
+
+.button :hover {
+  box-shadow: 0px 0px 45px 20px rgba(82,255,168,0.5);
+}
+
+@media only screen and (min-width: 768px) {
+  .pattern-divider {
+    display: none;
+  }
+
+  .pattern-divider-desktop {
+    display: block;
+    min-width: 100%;
+    padding-top: 0.2rem;
+  }
+
+}
